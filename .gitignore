@@ -1,0 +1,7 @@
+/smart
+/smart.backup.*
+/smart.e.backup.*
+*.o
+*.a
+*~
+jconfig.h
