@@ -71,19 +71,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(ProjectName)\$(Configuration)\</OutDir>
-    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/bin/</OutDir>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/bin/</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(ProjectName)\$(Configuration)\</OutDir>
-    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/bin/</OutDir>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc15_$(Platform)/$(Configuration)/bin/</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
