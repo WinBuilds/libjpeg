@@ -171,6 +171,7 @@
 copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jerror.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -200,6 +201,7 @@ copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configurati
 copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jerror.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -230,6 +232,7 @@ copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configurati
 copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jerror.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -260,6 +263,7 @@ copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configurati
 copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jerror.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
