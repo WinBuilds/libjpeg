@@ -166,6 +166,13 @@
     <Lib>
       <TargetMachine>MachineX86</TargetMachine>
     </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -188,6 +195,13 @@
     <Lib>
       <TargetMachine>MachineX64</TargetMachine>
     </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -211,6 +225,13 @@
     <Lib>
       <TargetMachine>MachineX86</TargetMachine>
     </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -234,6 +255,13 @@
     <Lib>
       <TargetMachine>MachineX64</TargetMachine>
     </Lib>
+    <PostBuildEvent>
+      <Command>mkdir "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jpeglib.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jconfig.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+copy "..\..\jmorecfg.h" "$(WINBUILDS_ROOT)build_msvc15_$(Platform)\$(Configuration)\include\libjpeg\"
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
